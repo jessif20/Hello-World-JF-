@@ -1,0 +1,15 @@
+x=10.2
+print(type(x))
+
+fruits = ["dragonfruit", "mangoes", "apples", "bananas"]
+print(fruits)
+
+fruits[0] = "dragon-fruit"
+print(fruits)
+
+f1 = fruits[2] ## f1 is a string data type
+print(f1)
+print(type(f1)) #print the data type
+print(f1.title()) #title = to capitalize the first alphabet of each word in a string
+print(len(fruits)) # length of list or number of elements in the list
+print(len(f1)) # length of element in a list 
